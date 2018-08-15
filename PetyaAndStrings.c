@@ -19,7 +19,7 @@ int main(){
             str2[i] = 'a' + str2[i] - 'A';
         }
     }
-    x = strcasecmp(str1,str2);
+    x = strcmp(str1,str2);
     if(x > 0) printf("1\n");
     else if(x < 0) printf("-1\n");
     else printf("0\n");
