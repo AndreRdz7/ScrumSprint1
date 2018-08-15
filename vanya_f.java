@@ -8,10 +8,11 @@ class vanya_f{
 		for(int i=0;i<n;i++)
 		{
 			p=sc.nextInt();
-			if(p<h)
+			if(p<=h)
 				res++;
 			else
-				res=res+2;
+				res=res+2; 
+			p=0;
 		}
 		System.out.println(res);
 
