@@ -23,4 +23,5 @@ main(int argc, char const *argv[]){
     }
     printf("%d",untreated_crimes);
     return 0;
+    
 }
